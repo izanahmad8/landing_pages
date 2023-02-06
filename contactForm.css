@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+.head {
+    text-align: center;
+    background-color: rgb(107, 201, 168);
+    color: aliceblue;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 17px;
+    border: 1px solid rgb(109, 227, 188);
+    border-radius: 10px;
+    margin: 10px;
+}
+.last {
+    text-align: center;
+    align-items: center;
+    margin-left: 20%;
+    margin: 10px;
+    padding: 30px;
+    background-color: rgb(210, 203, 159);
+    color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid rgb(210, 203, 159);
+    transition: width 2s;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 40%;
+    padding: 12px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid bisque;
+}
+input[type="submit"] {
+    background-color: rgb(77, 225, 176);
+    color: white;
+    width: 15%;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+textarea {
+    width: 40%;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 8px;
+}
+input[type="submit"]:hover {
+    background-color: rgb(64, 187, 64);
+    width: 400px;
+}
